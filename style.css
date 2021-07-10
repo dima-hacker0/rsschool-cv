@@ -1,9 +1,12 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
 }
 body img{
     width: 200px;
     height: auto;
+    border-radius: 33px;
+    position: absolute;
 }
 .wrap{
     max-width: 1110px;
@@ -11,10 +14,51 @@ body img{
 }
 header{
     background-color: #d3e9ff;
-    padding-top: 31px
-    
+    padding-top: 31px;
+    padding-bottom: 79px;
 }
-.flex-header{
-    display: flex;
-    justify-content: space-between;
+.box-header{
+    position: relative;
 }
+.header-text{
+    margin-left: 245px;   
+}
+h1{
+    font-weight: 500;
+}
+h2{
+    font-weight: 300;
+}
+.box-header h1{
+    margin-bottom: -16px;
+
+}
+section{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+main{
+    background-color: cornsilk;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+.information{
+    background-color: cornsilk;
+}
+h3{
+    margin-bottom: -10px;
+}
+.information mark{
+    font-weight: 100;
+}
+footer{
+    background-color: #1e8ce5;
+}
+footer p{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+
