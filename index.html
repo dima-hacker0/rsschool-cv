@@ -4,49 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>CV</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <header>
-        <div class="wrap box-header">        
-            <img src="photos/me.jpg" alt="my photo">
-            <div class="header-text">
-                <h1>Vaitsiakhouski Dzmitry</h1>
-                <h2>beginner web-developer</h2>
-                <h3>My contacts:</h3>
+    <div class="box">
+        <header>
+            <div class="box-header">        
+                <img src="photos/me.jpg" alt="my photo">
+                <div class="header-text">
+                    <h1>Vaitsiakhouski Dzmitry</h1>
+                    <h2>beginner web-developer</h2>
+                    <h3>My contacts:</h3>
+                    <ul>
+                        <li>email: boretskiy70@bk.ru</li>
+                        <li>vk: vk.com/gangsterdima</li>
+                        <li>telegram: @vodyanoy17</li>
+                    </ul>        
+                </div>
+            </div>     
+        </header>    
+        <main>
+            <section class="information">
+                <h3>Information about me:</h3>
+                <p>My aim is to improve my skills in frontend development and later find a good job, I am a very purposeful person and can learn new knowledge very quickly</p>
+                <h3>Skills:</h3>
                 <ul>
-                    <li>email: boretskiy70@bk.ru</li>
-                    <li>vk: vk.com/gangsterdima</li>
-                    <li>telegram: @vodyanoy17</li>
-                </ul>        
+                    <li>c++</li>
+                    <li>JS</li>
+                    <li>Photoshop</li>
+                    <li>git</li>
+                    <li>VS code</li>
+                    <li>html</li>
+                </ul>
+                <h3>English level: <mark>A2</mark></h3>
+                <h3 class="education">Education: <mark>completed one course in BSUIR</mark></h3>
+                <h3>Code examples:</h3>
+                <pre>                   
+#include&lt;iostream&gt;
+#include&lt;math.h&gt;
+using namespace std;
+int main()
+{
+    double x, y, z, a, b, c, h;
+    setlocale(LC_ALL, &quot;Rus&quot;);
+    cout &lt;&lt; &quot;Введите x:&quot;; cin &gt;&gt; x;
+    cout &lt;&lt; &quot;Введите y:&quot;; cin &gt;&gt; y;
+    cout &lt;&lt; &quot;Введите z:&quot;; cin &gt;&gt; z;
+    a = fabs(cos(x) - cos(y));
+    b = 1 + 2 * sin(y)*sin(y);
+    c = 1  + z + z*z / 2 + z*z*z / 3 + z*z*z*z / 4;
+    h = pow(a, b) * c;
+    cout &lt;&lt; &quot;Результат:&quot; &lt;&lt; h;
+    return 0;
+}                                    
+                </pre>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <p>Vaitsiakhouski Dzmitry</p>
             </div>
-        </div>     
-    </header>    
-    <main>
-        <section class="information">
-            <h3>Information about me:</h3>
-            <p>My aim is to improve my skills in frontend development and later find a good job, I am a very purposeful person and can learn new knowledge very quickly</p>
-            <h3>Skills:</h3>
-            <ul>
-                <li>c++</li>
-                <li>JS</li>
-                <li>Photoshop</li>
-                <li>git</li>
-                <li>VS code</li>
-                <li>html</li>
-            </ul>
-            <h3>English level: <mark>A2</mark></h3>
-            <h3>Education: <mark>completed one course in BSUIR</mark></h3>
-        </section>
-    </main>
-    <footer>
-        <div class="wrap">
-            <p>Vaitsiakhouski Dzmitry</p>
-        </div>
-    </footer>
-    
+        </footer> 
+    </div>
 </body>
 </html>
