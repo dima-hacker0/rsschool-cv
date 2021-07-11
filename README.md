@@ -1,1 +1,1 @@
-https://dima-hacker0.github.io/rsschool-cv/cv
+https://dima-hacker0.github.io/rsschool-cv/
