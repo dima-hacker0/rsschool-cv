@@ -58,6 +58,8 @@ footer{
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 97px;
 }
 footer p{
     margin: 0px;
@@ -76,4 +78,17 @@ body{
 }
 pre{
     width: 100px;
+}
+.rc{
+    position: absolute;
+    right: 11px;
+    top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer a{
+    position: absolute;
+    top: 38px;
 }
