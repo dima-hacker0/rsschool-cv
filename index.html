@@ -5,69 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="podsv/styles/atom-one-light.min.css">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <div class="box">
-        <header>
-            <div class="box-header">        
-                <img src="photos/me.jpg" alt="my photo">
-                <div class="header-text">
-                    <h1>Vaitsiakhouski Dzmitry</h1>
-                    <h2>beginner web-developer</h2>
-                    <h3>My contacts:</h3>
+    <header class="header">
+        <nav>
+            <ul class="header-flex">
+                <li><a class="header-gold" href="#contact">Contact</a></li>
+                <li><a class="header-gold" href="#education">Education</a></li>
+                <li><a class="header-gold" href="#skills">Skills</a></li>
+                <li><a class="header-gold" href="#about">About me</a></li>
+                <li><a class="header-gold" href="#key">Key-strengths</a></li>
+                <li><a class="header-gold" href="#code">Code example</a></li>
+                <li><a class="header-gold" href="#study">Study projects</a></li>
+            </ul>  
+        </nav>         
+    </header>
+    <main class="center">
+        <div class="columns">
+            <div class="left-side">
+                <p class="me-p"><img class="me" src="photos/me.jpg" alt="Dimon"></p>
+                <section id="contact" class="contact">
+                    <h2 class="h2-white">Contact</h2>
+                    <div class="contact-top">
+                        <div class="flex-svg">
+                            <img class="li-contact" src="photos/telegram.svg" alt="">
+                            <p class="li-relative">@vodyanoy17</p>
+                        </div>
+                        <div class="flex-svg">
+                            <img class="li-contact" src="photos/vk-social-network-logo.svg" alt="">
+                            <p class="li-relative">vk.com/gangsterdima</p>
+                        </div>
+                        <div class="flex-svg">
+                            <img class="li-contact" src="photos/inst.svg" alt="">
+                            <p class="li-relative">dimavaitechovsk</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="education" class="education">
+                    <h2 class="h2-white">Education</h2>
+                    <p class="education-p">2020-now Belorusian State University of Informatics and Radioelecnronics (BSUIR)</p>
+                </section>
+                <section id="skills" class="skills">
+                    <h2 class="h2-white">Skills</h2>
+                    <details>
+
+                        <summary>View</summary>
+                        <ul>
+                            <li class="skills-li">English level: B1</li>
+                            <li class="skills-li">C++</li>
+                            <li class="skills-li">JS</li>
+                            <li class="skills-li">HTML</li>
+                            <li class="skills-li">CSS</li>
+                        </ul>
+                    </details>
+                </section>
+            </div>            
+            <div class="right-side">
+                <section class="name">
+                    <h1>Vaitsiakhouski<br> Dzmitry</h1>
+                    <h4 class="p-name">Front-End developer</h4>
+                    <ol></ol>
+                </section>
+                <section id="about" class="about-me">
+                    <h2 class="h2-black">About me</h2>
+                    <p class="about-p">Hi, my name is Dima Vaitekhovsky, I am a 2nd-year student of BSUIR, I was born in Molodechno, and now I live in Minsk. Now I am studying at the rolling Scope school, my goal is to become a professional frontend developer. Why did I choose this particular direction?</p>
+                    <ul class="about-margin">
+                        <li class="about-hover">It is very interesting</li>
+                        <li class="about-hover">It is a high salary</li>
+                        <li class="about-hover">It is in demand</li>
+                        <li class="about-hover">It is also an opportunity to work remotely, which is very important nowadays.</li>
+                    </ul>
+                    <p>Now a little about my hobbies.</p>
+                    <ul class="about-margin">
+                        <li class="about-hover">I really like playing the guitar and piano</li> 
+                        <li class="about-hover">I love football and have been doing it since childhood</li>
+                        <li class="about-hover">I also love poetry greatly, my favorite poet is Sergey Yesenin</li>
+                        <li class="about-hover">I also like the workout</li>
+                    </ul>                  
+                </section>
+                <section id="key" class="Key-strengths">
+                    <h2 class="h2-black">Key strengths</h2>
                     <ul>
-                        <li>email: boretskiy70@bk.ru</li>
-                        <li>vk: vk.com/gangsterdima</li>
-                        <li>telegram: @vodyanoy17</li>
-                    </ul>        
-                </div>
-            </div>     
-        </header>    
-        <main>
-            <section class="information">
-                <h3>Information about me:</h3>
-                <p>My aim is to improve my skills in frontend development and later find a good job, I am a very purposeful person and can learn new knowledge very quickly</p>
-                <h3>Skills:</h3>
-                <ul>
-                    <li>c++</li>
-                    <li>JS</li>
-                    <li>Photoshop</li>
-                    <li>git</li>
-                    <li>VS code</li>
-                    <li>html</li>
-                </ul>
-                <h3>English level: <mark>A2</mark></h3>
-                <h3 class="education">Education: <mark>completed one course in BSUIR</mark></h3>
-                <h3>Code examples:</h3>
-                <pre>                   
-#include&lt;iostream&gt;
-#include&lt;math.h&gt;
-using namespace std;
-int main()
-{
-    double x, y, z, a, b, c, h;
-    setlocale(LC_ALL, &quot;Rus&quot;);
-    cout &lt;&lt; &quot;Введите x:&quot;; cin &gt;&gt; x;
-    cout &lt;&lt; &quot;Введите y:&quot;; cin &gt;&gt; y;
-    cout &lt;&lt; &quot;Введите z:&quot;; cin &gt;&gt; z;
-    a = fabs(cos(x) - cos(y));
-    b = 1 + 2 * sin(y)*sin(y);
-    c = 1  + z + z*z / 2 + z*z*z / 3 + z*z*z*z / 4;
-    h = pow(a, b) * c;
-    cout &lt;&lt; &quot;Результат:&quot; &lt;&lt; h;
-    return 0;
-}                                    
-                </pre>
-            </section>
-        </main>
+                        <li class="about-hover">Sense of humor</li>
+                        <li class="about-hover">I learn quickly</li>
+                        <li class="about-hover">I'm energetic</li>
+                        <li class="about-hover">I'm Sociable</li>
+                        <li class="about-hover">I'm purposeful</li>
+                    </ul>
+                </section>
+                <section id="code" class="code">
+                    <h2 class="h2-black">Code example</h2>
+
+                        <pre class="pre"><code>
+var validWord = function(dictionary, word) {
+    let word2 = word
+    for(let i = 0; i  dictionary.length; i++) {
+        word = word.split(dictionary[i]).join('');
+    }
+    if(word.length == 0) return true;
+    else {
+    for(let i = 1; i  dictionary.length; i++) {
+        word2 = word2.split(dictionary[i]).join('');
+    }
+    if(word2.length == 0) return true;
+    else return false;
+    }
+};                                
+                        </code></pre>
+
+                </section>
+                <section id="study" class="projects">
+                    <h2 class="h2-black">Study projects</h2>
+                    <div class="proj-ul">
+                        <div  class="study-li-width">
+                            <a target="_blank" href="https://rolling-scopes-school.github.io/dima-hacker0-JSFEPRESCHOOL/Photofilter"><img class="photo" src="photos/zakCV.jpg" alt=""></a>
+                            <h5>Photofilter</h5>
+                            <p class="drum-disk">Here you can change your photo as you like!</p>
+                            <p class="p-tech">Technologies used:</p>
+                            <ul class="study-ul">
+                                <li>JS</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+
+                        <div  class="study-li-width">
+                            <a target="_blank" href="https://rolling-scopes-school.github.io/dima-hacker0-JSFEPRESCHOOL/Drum-Kit/"><img class="drum" src="photos/barikiCV-1.png" alt=""></a>
+                            <h5>Drum-Kit</h5>
+                            <p class="drum-disk">Here you can write your first greatest hit of all time!</p>
+                            <p class="p-tech">Technologies used:</p>
+                            <ul class="study-ul">
+                                <li>JS</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
         <footer>
-            <a href="https://github.com/dima-hacker0">Мой github</a>
-            <img class="rc" src="photos/rs_school_js.jpg" alt="logotip">
-            
-        </footer> 
-    </div>
+            <a target="_blank" href="https://rs.school/js/"><img  src="photos/rs_school_js.jpg" alt="rss"></a>
+            <h3>2021</h3>
+            <a target="_blank" class="a-git" href="https://github.com/dima-hacker0"><img class="github" src="photos/github.svg" alt="github"></a>
+        </footer>
+    <script src="podsv/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
