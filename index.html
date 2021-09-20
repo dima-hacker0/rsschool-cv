@@ -25,7 +25,30 @@
                 <li><a class="header-gold" href="#code">Code example</a></li>
                 <li><a class="header-gold" href="#study">Study projects</a></li>
             </ul>  
-        </nav>         
+        </nav>                        
+        <div class="wrapper">
+            <input type="checkbox" id="check-menu">
+            <label for="check-menu">MENU</label>
+            <div class="burger-line str-1"></div>
+            <div class="burger-line str-2"></div>
+            <div class="burger-line str-3"></div>
+            <div class="burger-line str-4"></div>
+            <nav class="main-menu">
+                <a class="burger-2" href="#contact">Contact</a>
+                <a class="burger-2" href="#education">Education</a>
+                <a class="burger-2" href="#skills">Skills</a>
+                <a class="burger-2" href="#about">About me</a>
+                <a class="burger-2" href="#key">Key-strengths</a>
+                <a class="burger-2" href="#code">Code example</a>
+                <a class="burger-2" href="#study">Study projects</a>
+            </nav>
+        </div>
+
+
+
+
+
+
     </header>
     <main class="center columns">
             <div class="left-side">              
@@ -87,7 +110,8 @@
                         <li class="about-hover">I love football and have been doing it since childhood</li>
                         <li class="about-hover">I also love poetry greatly, my favorite poet is Sergey Yesenin</li>
                         <li class="about-hover">I also like the workout</li>
-                    </ul>                  
+                    </ul>   
+                   <div class="video-div"> <iframe class="video" src="https://www.youtube.com/embed/90eUODVwsAw" frameborder="0" allowfullscreen></iframe> </div>         
                 </section>
                 <section id="key" class="Key-strengths">
                     <h2 class="h2-black">Key strengths</h2>
@@ -103,17 +127,29 @@
                     <h2 class="h2-black">Code example</h2>
 
                         <pre class="pre"><code>
-var validWord = function(dictionary, word) {
+function(dictionary, word)
+ {
     let word2 = word
-    for(let i = 0; i  dictionary.length; i++) {
-        word = word.split(dictionary[i]).join('');
+    for(let i = 0; i  
+    dictionary.length; i++)
+     {
+        word = word.split
+        (dictionary[i])
+         .join('');
     }
-    if(word.length == 0) return true;
+    if(word.length == 0) 
+        return true;
     else {
-    for(let i = 1; i  dictionary.length; i++) {
-        word2 = word2.split(dictionary[i]).join('');
+    for(let i = 1; i  
+    dictionary.
+    length; i++) {
+        word2 =
+         word2.split
+        (dictionary[i]).
+        join('');
     }
-    if(word2.length == 0) return true;
+    if(word2.length == 0) 
+        return true;
     else return false;
     }
 };                                
@@ -147,7 +183,7 @@ var validWord = function(dictionary, word) {
                             </ul>
                         </div>
                     </div>
-                    
+
                 </section>
             </div>
     </main>
