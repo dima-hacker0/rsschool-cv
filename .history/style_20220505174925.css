@@ -256,9 +256,7 @@ footer h3 {
 }
 .photo {
   width: 100%;
-  height: 150px;
-  object-fit: cover;
-  display: block;
+  height: auto;
 }
 .study-li-width {
   width: 45%;
@@ -366,9 +364,6 @@ label {
   flex-wrap: wrap;
   max-width: 87%;
   justify-content: space-between;
-}
-.server {
-  color: blue !important;
 }
 @media (max-width: 935px) {
   .columns {
