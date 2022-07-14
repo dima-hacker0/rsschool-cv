@@ -368,7 +368,7 @@ label {
   justify-content: space-between;
 }
 .server {
-  color: blue !important;
+  color: black !important;
 }
 @media (max-width: 935px) {
   .columns {

@@ -367,9 +367,6 @@ label {
   max-width: 87%;
   justify-content: space-between;
 }
-.server {
-  color: blue !important;
-}
 @media (max-width: 935px) {
   .columns {
     grid-template-columns: initial !important;
